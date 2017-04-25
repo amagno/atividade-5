@@ -8,5 +8,8 @@ void calculaQuociente();
 void defineMaiorEntreTresNumeros();
 void recebeTresNumeroEColocaEmOrdemCrescente();
 void calculaRaizEquacaoSegundoGrau();
+void calculaTipoTriangulo();
+void calculaNumerosPares();
+
 
 #endif // EXERCICIOS_H_INCLUDED

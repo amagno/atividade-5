@@ -1,3 +1,5 @@
+
+#include "exercicios.h"
 #include <stdio.h>
 #include <math.h>
 
@@ -24,6 +26,7 @@ void calcularMediaAluno() {
 	}
 
 }
+
 void qualNumeroMaior() {
 	int a, b;
 	printf("Digite o número A -> ");
@@ -40,6 +43,7 @@ void qualNumeroMaior() {
 		}
 	}
 }
+
 void velocidadeMaximaMulta() {
 	int vm, v;
 	printf("Digite a velocidade máxima permitida    -> ");
@@ -61,6 +65,7 @@ void velocidadeMaximaMulta() {
 	}
 
 }
+
 void calculaQuociente() {
 	int n1, n2;
 	printf("Digite o primeiro número -> ");
@@ -74,6 +79,7 @@ void calculaQuociente() {
 		printf("Divisão por ZERO \n");
 	}
 }
+
 void defineMaiorEntreTresNumeros() {
 	int n1, n2, n3;
 
@@ -97,6 +103,7 @@ void defineMaiorEntreTresNumeros() {
 		return;
 	}
 }
+
 void recebeTresNumeroEColocaEmOrdemCrescente() {
 	int n1, n2, n3;
 
@@ -139,6 +146,7 @@ void recebeTresNumeroEColocaEmOrdemCrescente() {
 		}
 	}
 }
+
 void calculaRaizEquacaoSegundoGrau() {
 	float a, b, c, delta, x1, x2;
 	printf("Digite o número a -> ");
@@ -158,4 +166,35 @@ void calculaRaizEquacaoSegundoGrau() {
 	}
 
 	printf("Valor de x1 = %.2f\nValor de x2 = %.2f\n", x1, x2);
+}
+
+void calculaTipoTriangulo() {
+	int n1, n2, n3;
+
+	printf("Digite primeira medida -> ");
+	scanf("%d", &n1);
+	printf("Digite segunda medida  -> ");
+	scanf("%d", &n2);
+	printf("Digite terceira medida -> ");
+	scanf("%d", &n3);
+
+
+	if(n1 == n2 && n1 == n3 && n2 == n3) {
+		printf("Triángulo do tipo Equilátero \n");
+		return;
+	}
+
+	if(n1 == n2 || n1 == n3 || n2 == n3) {
+		printf("Triángulo do tipo Isósceles \n");
+		return;
+	}
+
+	if(n1 != n2 && n1 != n3 && n2 != n3) {
+		printf("Triángulo do tipo Escaleno \n");
+		return;
+	}
+}
+
+void calculaNumerosPares() {
+	printf("Teste \n");
 }
