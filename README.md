@@ -1,3 +1,5 @@
+![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)
+
 # ATIVIDADE 5 – ESTRUTURAS DE SELEÇÃO
 ### IMPLEMENTAÇÃO UTILIZANDO A LINGUAGEM C
 
