@@ -1,4 +1,5 @@
 ![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)
+[![Build Status](https://travis-ci.org/amagno/atividade-5.svg?branch=master)](https://travis-ci.org/amagno/atividade-5)
 
 # ATIVIDADE 5 – ESTRUTURAS DE SELEÇÃO
 ### IMPLEMENTAÇÃO UTILIZANDO A LINGUAGEM C
